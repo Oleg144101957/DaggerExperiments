@@ -28,12 +28,3 @@ data class Computer(
     )
 
 
-
-fun main(){
-
-    val appComponent: AppComponent = DaggerAppComponent.create()
-    println(appComponent.computer)
-
-
-
-}
